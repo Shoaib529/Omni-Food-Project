@@ -112,3 +112,16 @@ body {
 .hero-img {
   width: 100%;
 }
+.delivered-meals {
+  display: flex;
+}
+
+.delivered-imges {
+  display: flex;
+}
+
+.delivered-imges img {
+  height: 6.4rem;
+  width: 6.4rem;
+  border-radius: 50%;
+}
