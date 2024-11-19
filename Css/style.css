@@ -45,6 +45,20 @@ body {
   color: #555;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
 .hero {
   max-width: 130rem;
   align-items: center;
@@ -53,11 +67,12 @@ body {
   padding: 0 3.2rem;
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
+  padding: 0 3.2rem;
 }
 
 .section-hero {
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 9.6rem 0;
 }
 
 .heading-primary {
