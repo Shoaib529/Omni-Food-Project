@@ -214,23 +214,45 @@ body {
   font-weight: 700;
 }
 
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 /****************************/
 /* HOW OT WORKS SECTION*/
 /****************************/
 .section-how {
-  padding: 9.6px 0;
-  background-color: orangered;
+  padding: 9.6rem 0;
 }
 
-.section-how div:nth-child(1) {
-  background-color: aqua;
-}
-.section-how div:nth-child(2) {
-  background-color: blue;
-}
-.section-how div:nth-child(3) {
-  background-color: yellow;
-}
-.section-how div:nth-child(4) {
-  background-color: violet;
+.step-img {
+  width: 50%;
 }
