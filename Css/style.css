@@ -125,7 +125,8 @@ body {
 }
 
 .heading-primary,
-.heading-secondary {
+.heading-secondary,
+.heading-tertiary {
   font-weight: 700;
   color: #333;
   letter-spacing: -0.5px;
@@ -365,6 +366,10 @@ body {
   padding: 9.6rem 0;
 }
 
+.container-text-center {
+  text-align: center;
+}
+
 .meal {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.75);
   border-radius: 11px;
@@ -435,4 +440,24 @@ strong {
 
 .meal-img {
   width: 100%;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  color: #e67e22;
+  width: 3rem;
+  height: 3rem;
 }
