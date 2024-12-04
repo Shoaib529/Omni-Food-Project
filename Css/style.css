@@ -201,6 +201,10 @@ body {
 .margin-right-sm {
   margin-right: 1.6 !important;
 }
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
 .delivered-meals {
   display: flex;
   margin-top: 8rem;
@@ -371,9 +375,14 @@ body {
 }
 
 .meal {
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.75);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.06);
   border-radius: 11px;
   overflow: hidden;
+  transition: all 0.5s;
+}
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.4rem 6.8rem rgba(0, 0, 0, 0.75);
 }
 
 .meal-content {
@@ -460,4 +469,84 @@ strong {
   color: #e67e22;
   width: 3rem;
   height: 3rem;
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
+/****************************/
+/* Testimonals SECTION*/
+/****************************/
+
+.section-testimonials {
+  background-color: #fae5d3;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+.testimonials-container {
+  padding: 9.6rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #777;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+.gallery-item img:hover {
+  transform: scale(1.1);
 }
