@@ -771,6 +771,11 @@ strong {
   /* transition: background-color 0.3s; */
   transition: all 0.3s;
 }
+
+.btn:hover {
+  background-color: #fdf2e9;
+  color: #45260a;
+}
 /**************************/
 /* FOOTER */
 /**************************/
